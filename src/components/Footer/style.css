@@ -1,8 +1,8 @@
 .footer {
-        background-color: rgb(172, 176, 170);
-        background-size: 100% 100%;
+        background-color: rgb(211, 209, 209);
         height: 479px;
-        width: auto;
+        width: 100%;
+        display: flex;
        
 
       }
@@ -12,8 +12,8 @@
         left: 80px;
         position: relative;
         top: 169px;
-        width: 1288px;
-        display: flex;
+        width: 33;
+        display: table-row-group;
       }
       
       .footer .div {
@@ -21,7 +21,7 @@
         left: 20px;
         position: absolute;
         top: 30px;
-        width: 333px;
+        width: 33%;
       }
       
       .footer .text-wrapper {
@@ -142,14 +142,17 @@
         font-weight: 400;
         left: 0;
         letter-spacing: 0;
+        padding: auto;
         line-height: normal;
-        position: absolute;
+        position: relative;
         top: 142px;
+        
       }
       
       .footer .group-7 {
         height: 166px;
         left: 348px;
+        padding: auto;
         position: absolute;
         top: 0;
         width: 141px;
@@ -157,10 +160,11 @@
       
       .footer .group-8 {
         height: 214px;
-        left: 152px;
-        position: absolute;
+        left: 570px;
+        padding: auto;
+        position: relative;
         top: 0;
-        width: 33%;
+        width: 100px;
 
       }
       
