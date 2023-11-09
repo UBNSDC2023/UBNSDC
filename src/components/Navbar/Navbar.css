@@ -54,7 +54,7 @@
   display: none;
 }
 
-/* @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
   }
@@ -62,7 +62,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     height: 100%;
     position: absolute;
     top: 80px;
@@ -107,4 +107,5 @@
     font-size: 2rem;
   }
 
-} */
+  
+}
