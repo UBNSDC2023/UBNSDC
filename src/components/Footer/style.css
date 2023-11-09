@@ -13,7 +13,7 @@
         position: relative;
         top: 169px;
         width: 33;
-        display: flex;
+        display: table-row-group;
       }
       
       .footer .div {
@@ -21,7 +21,7 @@
         left: 20px;
         position: absolute;
         top: 30px;
-        width: 333px;
+        width: 33%;
       }
       
       .footer .text-wrapper {
@@ -160,11 +160,11 @@
       
       .footer .group-8 {
         height: 214px;
-        left: 270px;
+        left: 570px;
         padding: auto;
         position: relative;
         top: 0;
-        width: 100;
+        width: 100px;
 
       }
       
