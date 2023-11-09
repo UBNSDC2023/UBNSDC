@@ -3,6 +3,8 @@ import  { useState } from 'react'
 import logo from '../../../assets/nsdc-logo.png'
 import './navbar.css'
 import { Link } from 'react-router-dom'
+import '../../App.css'
+
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -32,18 +34,18 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/Home' className='nav-links'>
+              <Link to='/' className='nav-links'>
                 Home
               </Link>
             </li>
 
-            <li className='nav-items'>
+            <li className='nav-item'>
               <Link to='/Join' className='nav-links'>
                 Join Us
               </Link>
             </li>
 
-            <li className='nav-items'>
+            <li className='nav-item'>
               <Link to='/About' className='nav-links'>
                 About
               </Link>
