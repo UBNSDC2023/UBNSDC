@@ -1,0 +1,269 @@
+.footer {
+        background-color: rgb(172, 176, 170);
+        background-size: 100% 100%;
+        height: 479px;
+        width: auto;
+       
+
+      }
+      
+      .footer .group {
+        height: 244px;
+        left: 80px;
+        position: relative;
+        top: 169px;
+        width: 1288px;
+        display: flex;
+      }
+      
+      .footer .div {
+        height: 190px;
+        left: 20px;
+        position: absolute;
+        top: 30px;
+        width: 333px;
+      }
+      
+      .footer .text-wrapper {
+        color: #141313;
+        font-family: var(--subtitle-1-18-font-family);
+        font-size: var(--subtitle-1-18-font-size);
+        font-style: var(--subtitle-1-18-font-style);
+        font-weight: var(--subtitle-1-18-font-weight);
+        left: 0;
+        letter-spacing: var(--subtitle-1-18-letter-spacing);
+        line-height: var(--subtitle-1-18-line-height);
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+      }
+      
+      .footer .group-2 {
+        height: 24px;
+        left: 0;
+        position: absolute;
+        top: 46px;
+        width: 169px;
+      }
+      
+      .footer .img {
+        height: 24px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 24px;
+      }
+      
+      .footer .text-wrapper-2 {
+        color: #141313;
+        font-family: "Poppins", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 49px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 0;
+      }
+      
+      .footer .group-3 {
+        height: 24px;
+        left: 0;
+        position: absolute;
+        top: 94px;
+        width: 201px;
+      }
+      
+      .footer .group-4 {
+        height: 48px;
+        left: 0;
+        position: absolute;
+        top: 142px;
+        width: 33%;
+      }
+      
+      .footer .p {
+        color: #141313;
+        font-family: "Poppins", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 49px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 0;
+        width: 33%;
+      }
+      
+      .footer .group-5 {
+        height: 214px;
+        left: 399px;
+        position: absolute;
+        top: 30px;
+        width: 33%;
+      }
+      
+      .footer .group-6 {
+        height: 166px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 33%;
+      }
+      
+      .footer .text-wrapper-3 {
+        color: #141313;
+        font-family: "Poppins", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 46px;
+      }
+      
+      .footer .text-wrapper-4 {
+        color: #141313;
+        font-family: "Poppins", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 94px;
+      }
+      
+      .footer .text-wrapper-5 {
+        color: #141313;
+        font-family: "Poppins", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 142px;
+      }
+      
+      .footer .group-7 {
+        height: 166px;
+        left: 348px;
+        position: absolute;
+        top: 0;
+        width: 141px;
+      }
+      
+      .footer .group-8 {
+        height: 214px;
+        left: 152px;
+        position: absolute;
+        top: 0;
+        width: 33%;
+
+      }
+      
+      .footer .text-wrapper-6 {
+        color: #141313;
+        font-family: "Poppins", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 0;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 190px;
+      }
+      
+      .footer .vector {
+        height: 1px;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 1280px;
+      }
+      
+      .footer .overlap-group {
+        background-color: #131313;
+        border-radius: 10px;
+        height: 184px;
+        left: 976px;
+        position: absolute;
+        top: 19px;
+        width: 304px;
+      }
+      
+      .footer .text-wrapper-7 {
+        color: #141313;
+        font-family: var(--subtitle-1-18-font-family);
+        font-size: var(--subtitle-1-18-font-size);
+        font-style: var(--subtitle-1-18-font-style);
+        font-weight: var(--subtitle-1-18-font-weight);
+        left: 14px;
+        letter-spacing: var(--subtitle-1-18-letter-spacing);
+        line-height: var(--subtitle-1-18-line-height);
+        position: absolute;
+        top: 14px;
+        white-space: nowrap;
+      }
+      
+      .footer .will-send-you-weekly {
+        color: #141313;
+        font-family: "Manrope", Helvetica;
+        font-size: 13px;
+        font-weight: 500;
+        left: 14px;
+        letter-spacing: 0;
+        line-height: normal;
+        opacity: 0.5;
+        position: absolute;
+        top: 127px;
+        width: 277px;
+      }
+      
+      .footer .overlap {
+        background-color: #1e1e1e;
+        border-radius: 4px;
+        height: 39px;
+        left: 14px;
+        position: absolute;
+        top: 69px;
+        width: 277px;
+      }
+      
+      .footer .text-wrapper-8 {
+        color: #606060;
+        font-family: "Poppins", Helvetica;
+        font-size: 11px;
+        font-weight: 400;
+        left: 10px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 12px;
+      }
+      
+      .footer .div-wrapper {
+        background-image: url(https://c.animaapp.com/X2zlFSkJ/img/rectangle-128-1.svg);
+        background-size: 100% 100%;
+        height: 39px;
+        left: 172px;
+        position: absolute;
+        top: 0;
+        width: 105px;
+      }
+      
+      .footer .text-wrapper-9 {
+        color: #141313;
+        font-family: "Poppins", Helvetica;
+        font-size: 12px;
+        font-weight: 500;
+        left: 22px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 11px;
+      }
+      
