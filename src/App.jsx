@@ -6,18 +6,26 @@ import Home from './pages/Home/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AppLayout from './components/AppLayout'
 import About from './pages/About/About'
-import Join from './pages/Join/Join'
+
+import Join from "./pages/Join/Join"
+import Boards from "./pages/Board/BoardMembePage"
+
+import {app} from "../firebaseConfig"
 
 function App() {
   return(
     <>
+    
     <BrowserRouter>
     <Routes>
       <Route element={<AppLayout/>}>
-        
       <Route index path="/" element={<Home/>}/>
       <Route path='about' element={<About/>}/>
-      <Route path='join' element={<Join/>}/>
+
+      <Route path="join-us"element={<Join/>}/>
+      {/* <Route path="activities"element={<Activiti/>}/> */}
+      <Route path="meet-the-board"element={<Boards/>}/>
+
       </Route>
     </Routes>
     </BrowserRouter>

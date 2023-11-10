@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getBoardMembers } from "../../components/services/apiBoard_Members";
+import { getBoardMembers } from "../../components/services/apiBoard_Members copy";
 
 
 function BoardMembePage() {
