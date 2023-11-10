@@ -9,6 +9,8 @@ import About from './pages/About/About'
 import Join from "./pages/Join/Join"
 import Boards from "./pages/Board/BoardMembePage"
 
+import {app} from "../firebaseConfig"
+
 function App() {
   return(
     <>
