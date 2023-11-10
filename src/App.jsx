@@ -6,6 +6,7 @@ import Home from './pages/Home/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AppLayout from './components/AppLayout'
 import About from './pages/About/About'
+import Join from './pages/Join/Join'
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
         
       <Route index path="/" element={<Home/>}/>
       <Route path='about' element={<About/>}/>
+      <Route path='join' element={<Join/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
