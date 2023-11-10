@@ -40,7 +40,7 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
-              <NavLink to='/Join' className='nav-links'>
+              <NavLink to='/join-us' className='nav-links'>
                 Join Us
               </NavLink>
             </li>
@@ -50,15 +50,25 @@ function Navbar() {
                 About
               </NavLink>
             </li>
+
+            <li className='nav-item'>
+              <NavLink to='/meet-the-board' className='nav-links'>
+                Meet The Board
+              </NavLink>
+              </li>
             
             <li className='nav-item last'>
               <NavLink to='/Activities' className='nav-links' onClick={closeMobileMenu}>
                 <p className='lastfucking'>
                   Activities
                   </p>
-              </NavLink>
+                  </NavLink>
+                  </li>
+          
+
+           
             
-            </li>
+           
           </ul>
         </div>
       </nav>
