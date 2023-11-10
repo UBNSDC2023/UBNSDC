@@ -51,11 +51,10 @@ function Join() {
         <div className='groupme-text-container'>
           <h1 className='groupme-text-header'> Main List Sign Up</h1>
           <p className='groupme-text-para'>click the below link to give more information about u add <br />a pressable button below with hover effect</p>
-      
         </div>
 
         <img className= 'groupme-img' src={logo} alt="" />
-
+        
       </div>
     </>
   )
