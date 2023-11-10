@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { getBoardMembers } from "../../components/services/apiBoard_Members";
-import BoardMemberCard from "./BoardMemberCard";
+
 
 function BoardMembePage() {
 
@@ -25,12 +25,10 @@ function BoardMembePage() {
                                 <p>{data.name}</p>
                                 <p>{data.pronouns}</p>
                                 </>
-
                                 ) ) : ""
                 }
                 
                 
-                <BoardMemberCard />
 
                 </>
         )
