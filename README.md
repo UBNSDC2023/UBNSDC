@@ -22,7 +22,7 @@ Students of UB are welcome to join this Chapter. To join, please fill out the NS
 
 ## Stay Connected
 
-Email us at nsdc@nebigdatahub.org with any inquiries or questions. You can also join our Slack channel, follow us on Twitter, Instagram, or LinkedIn, subscribe to the Northeast Hub YouTube channel, and sign up for our NSDC mailing list.
+Email us at ubnsdc2023@gmail.com with any inquiries or questions. You can also join our Slack channel, follow us on Twitter, Instagram, or LinkedIn, subscribe to the Northeast Hub YouTube channel, and sign up for our NSDC mailing list.
 
 ## Acknowledgements
 
