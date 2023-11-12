@@ -15,14 +15,7 @@ function Footer() {
             <img className="img" alt="Ic sharp email" src="https://c.animaapp.com/X2zlFSkJ/img/ic-sharp-email-1.svg" />
             <div className="text-wrapper-2">%% Our email address%%</div>
           </div>
-          <div className="group-4">
-            <img
-              className="img"
-              alt="Carbon location"
-              src="https://c.animaapp.com/X2zlFSkJ/img/carbon-location-filled.svg"
-            />
-            
-          </div>
+
         </div>
         <div className="group-5">
           <div className="group-6">

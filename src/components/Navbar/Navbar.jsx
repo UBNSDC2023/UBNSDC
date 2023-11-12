@@ -2,7 +2,9 @@
 import  { useState } from 'react'
 import logo from '../../../assets/nsdc-logo.png'
 import './navbar.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import '../../App.css'
+
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -24,36 +26,45 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' >
+          <NavLink to='/' >
             <img className='navbar-logo' src={logo} alt="" />
-          </Link>
+          </NavLink>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/Home' className='nav-links'>
+              <NavLink to='/' className='nav-links'>
                 Home
-              </Link>
+              </NavLink>
             </li>
 
-            <li className='nav-items'>
-              <Link to='/Join' className='nav-links'>
+            <li className='nav-item'>
+              <NavLink to='/join-us' className='nav-links'>
                 Join Us
-              </Link>
+              </NavLink>
             </li>
 
-            <li className='nav-items'>
-              <Link to='/About' className='nav-links'>
+            <li className='nav-item'>
+              <NavLink to='/About' className='nav-links'>
                 About
-              </Link>
+              </NavLink>
             </li>
+
+    
             
-            <li className='nav-items'>
-              <Link to='/Activities' className='nav-links' onClick={closeMobileMenu}>
-                Activities
-              </Link>
-            </li>
+            <li className='nav-item last'>
+              <NavLink to='/Activities' className='nav-links' onClick={closeMobileMenu}>
+                <p className='lastfucking'>
+                  Activities
+                  </p>
+                  </NavLink>
+                  </li>
+          
+
+           
+            
+           
           </ul>
         </div>
       </nav>

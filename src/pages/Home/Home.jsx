@@ -1,10 +1,19 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+import  { useEffect, useState } from 'react'
+import { getBoardMembers } from '../../components/services/apiBoard_Members';
+
+
 
 function Home() {
+  const [board, setBoard] = useState(null);
+  
+  useEffect(() => {
+    console.log(getBoardMembers())
+  })
+
+
   return (
     <div>
-      <h1>Home LOL</h1>  
+      
         
     </div>
   )
