@@ -1,27 +1,37 @@
 import React from 'react'
-import "./style.css"
+import './About.css'
+import Board from '../../components/Board/Board'
+import '../../App.css'
 
 function About() {
   return (
     <>
-    <div className='container'>
+    <div className='goal-container'>
+      <h1 className='goal-heading'>What is Our Goal?</h1>
+      <p className='goal-para'>We so opinion friends me message as delight. Whole front do of plate heard oh <br />ought. His defective nor convinced residence own. Connection has put impossible<br /> own apartments boisterous. At jointure ladyship an insisted so humanity he. <br />Friendly bachelor entrance to on by.</p>
+    </div>
+    <h1 className='board-heading'>Meet our Board Members</h1>
+    <div className='board-container'>
+      <h1>Administrations</h1>
+      <div className='admin-board-container'>
+        <div className='admin-image-container'>
+          <Board/>
+          <Board/>
+          <Board/>
+          <Board/>
+          <Board/>
 
-    <h1 className='header'>About NSDC at UB</h1>
-    
-    <h2>Our Mission</h2>
-    <p>
-    At NSDC, we believe in empowering individuals and communities to drive positive change towards a more sustainable world. Our mission is to:
-    </p>
-    <ul className='list'>
-    <li>Promote awareness and understanding of sustainable development goals.</li>
-    <li>Engage in research and initiatives that address pressing environmental and social challenges.</li>
-    <li>Foster a community of passionate individuals committed to creating a better future for all.</li>
-    </ul>
-    <h2>Our Origins</h2>
-    <p>
-    Founded at UCLA, NSDC has now found its home at the University at Buffalo, where we continue to build upon a legacy of environmental leadership and innovation. With a diverse and dedicated team, we are committed to advancing sustainable practices both locally and globally.
-    </p>
-        
+        </div>
+      </div>
+
+
+      <h1>Project leaders</h1>
+      <div className='project-board-container'>
+        <Board/>
+        <Board/>
+        <Board/>
+        <Board/>
+      </div>
     </div>
     </>
   )

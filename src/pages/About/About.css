@@ -1,0 +1,66 @@
+.goal-container{
+    text-align: center;
+    margin: 40px;
+    border: 4px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #040C18;
+    color: white;
+}
+
+.board-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.board-container{
+    text-align: center;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.admin-board-container{
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    margin-bottom: 100px;
+    align-content: center;
+}
+
+.admin-image-container{
+    margin: 20px;
+    border: 4px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.admin-image-container .board-container {
+    flex-basis: calc(33.33% - 20px); /* 33.33% minus padding to ensure three items in a row */
+    margin-bottom: 20px; /* Adjust as needed for spacing between rows */
+
+}
+
+.project-board-container{
+    padding: 20px; /* used padding here but used margin in admin container gotta change that while creating components*/
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    margin-bottom: 30px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.project-board-container .board-container {
+    flex-basis: calc(33.33% - 20px); /* 33.33% minus padding to ensure three items in a row */
+    margin-bottom: 20px; /* Adjust as needed for spacing between rows */
+
+}
+
+
+
+

@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar/Navbar'
 import { BsDiscord, BsInstagram, BsTwitter } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/nsdc-logo.png'
+import groupme from '../../../assets/Group-logo.png'
+import Button from '../../components/Button/Button';
 
 function Join() {
   return (
@@ -13,14 +15,16 @@ function Join() {
         <p className='text'>Welcome to UBNSDC Join us now to contribute to something big</p>
       </div>
       <div className='groupme-container'>
-
         <div className='groupme-text-container'>
           <h1 className='groupme-text-header'>Become a Member by Joining <br /> us on Group Me</h1>
           <p className='groupme-text-para'>Yo bruv join on group me innit</p>
         </div>
-
-        <img className= 'groupme-img' src={logo} alt="" />
-
+        <div className='groupme-box'>
+          <img className= 'groupme-img' src={groupme} alt="" />
+          <Button buttonStyle='btn--outline'>
+            Become A Member
+          </Button>
+        </div>
 
       </div>
       <div className='social-container'>
