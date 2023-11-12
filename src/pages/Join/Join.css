@@ -20,19 +20,34 @@
 
 
 .groupme-container{
+    border: 2px solid gray;
     display: flex;
     justify-content: space-around;
+    padding: 20px;
     
 }
 
 .groupme-text-container{
-    margin-left: 100px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    margin-top: 20px;
+    border: 2px solid gray;
 
+}
+
+.groupme-box{
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 0px;
+    background: linear-gradient(144deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
 }
 
 .groupme-text-header{
@@ -44,8 +59,8 @@
 }
 
 .groupme-img{
-    width: 10%;
-    margin-right: 100px;
+    width: 70%;
+    margin-bottom: 20px;
 }
 
 .social-container{

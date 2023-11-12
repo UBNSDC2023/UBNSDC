@@ -51,11 +51,7 @@ function Navbar() {
               </NavLink>
             </li>
 
-            <li className='nav-item'>
-              <NavLink to='/meet-the-board' className='nav-links'>
-                Meet The Board
-              </NavLink>
-              </li>
+    
             
             <li className='nav-item last'>
               <NavLink to='/Activities' className='nav-links' onClick={closeMobileMenu}>
