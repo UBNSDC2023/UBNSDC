@@ -1,26 +1,21 @@
 import  { useEffect, useState } from 'react'
 import { getBoardMembers } from '../../components/services/apiBoard_Members';
-import './Home.module.css';
+import "./Home.module.css"
 
 
 function Home() {
-  const [board, setBoard] = useState(null);
-  
-  useEffect(() => {
-    console.log(getBoardMembers())
-  })
 
 
   return (
-    <div>
-      <p>
+    <div className='home-container'>
+  
       <h3 className='heading'>
         Welcome to NSDC at the University at Buffalo!
         </h3>
 
-    <div className='heading-body'>
+    <p className='QIS'>
     Greetings, drama enthusiasts! We are thrilled to welcome you to the newest branch of the National Student Drama Competition right here at the University at Buffalo. As an extension of the prestigious NSDC UCLA, our mission is to ignite the passion for drama and the performing arts within the vibrant community of Buffalo.
-  </div>
+  </p>
 
 About NSDC UCLA:
 
@@ -55,7 +50,6 @@ Stay Informed:
 Keep up with the latest news, updates, and success stories from NSDC UB. Our news section is your go-to source for announcements, achievements, and inspiring stories from our talented community.
 
 Welcome to a world where creativity knows no bounds. Join us on this exciting journey as we bring the magic of drama to the heart of Buffalo. Let the spotlight shine on NSDC UB, where every story deserves to be told, and every performer deserves a stage
-      </p>
         
     </div>
   )

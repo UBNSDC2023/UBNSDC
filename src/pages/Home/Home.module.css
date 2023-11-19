@@ -1,9 +1,14 @@
+.home-container{
+        background-color: antiquewhite;
+}
+
 .heading{
         font-size: 20px;
         align-content: center;
+        background-color: aquamarine;
 }
 
-.heading-body{
+.QIS {
         align-content: center;
         padding-bottom: 20px;
         font-size: 200px;
