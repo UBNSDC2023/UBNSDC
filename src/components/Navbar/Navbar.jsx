@@ -51,19 +51,12 @@ function Navbar() {
               </NavLink>
             </li>
 
-    
-            
-            <li className='nav-item last'>
-              <NavLink to='/Activities' className='nav-links' onClick={closeMobileMenu}>
-                <p className='lastfucking'>
-                  Activities
-                  </p>
-                  </NavLink>
-                  </li>
-          
-
-           
-            
+            <li className='nav-item'>
+              <NavLink to='/meet-the-board' className='nav-links'>
+                Meet The Board
+              </NavLink>
+              </li>
+        
            
           </ul>
         </div>
@@ -74,39 +67,3 @@ function Navbar() {
 
 export default Navbar
 
-{/* <ul className={click ? 'fas menu-active' : 'fas menu'}>
-          <li className='navbar-item'>
-            <Link to='/' className='' onClick={closeMobileMenu}>
-              Home
-            </Link>
-          </li> */}
-
-{/* <ul className={click ? 'fas menu-active' : 'fas menu'}>
-          <li className='navbar-item'>
-            Home
-          </li>
-        </ul> */}
-
-{/* <>
-      <nav className="navbar">
-        <a href="https://nebigdatahub.org/nsdc/">
-          <img className = 'navbar-img' src={logo} alt="" />
-        </a>
-        {/* <ul className='navbar-menu-items'>
-          <li>Home</li>
-          <li>Contact</li>
-          <li>About Us</li> */}
-
-    //     <div className= 'menu-icon' onClick={handleClick}>
-    //       <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
-    //     </div>
-    //     <ul className={click ? 'fas menu-active' : 'fas menu'}>
-    //       <li className='navbar-item'>
-    //         <Link to='/'>
-    //           Home
-    //         </Link>
-    //       </li>
-    //     </ul>
-
-    //   </nav>
-    // </> }

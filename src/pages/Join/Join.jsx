@@ -7,6 +7,7 @@ import insta from '../../../assets/instagram.png'
 import groupme from '../../../assets/Group-logo.png'
 import Button from '../../components/Button/Button';
 import { IconContext } from 'react-icons';
+import JoinForm from '../../components/Join-Form/joinForm';
 
 function Join() {
   return (
@@ -31,21 +32,21 @@ function Join() {
       <div className='social-container'>
 
         <div className='social-discord'>
-          <h4 className='social-heading' >Join us on Discord</h4>
+          <p className='social-heading' >Join us on Discord</p>
           <Link className='discord-icon'>
             <BsDiscord className = 'discord-icon' size={30} color='purple'/>
           </Link>
           
         </div>
         <div className='social-insta'>
-          <h4 className='social-heading'>Join us on Insta</h4>
+          <p className='social-heading'>Join us on Insta</p>
           {/* <Link className='instagram-icon'>
             <BsInstagram className = 'instagram-icon' size={30} color='purple'/>
           </Link> */}
           <img src={insta} className='instagram-logo' />
         </div>
         <div className='social-twitter'>
-          <h4 className='social-heading'>Join us on Twitter</h4>
+          <p className='social-heading'>Join us on Twitter</p>
           <IconContext.Provider value={{ color: '#0000FF', className: "twitter-icon"}}>
             <BsTwitter size={30}/>
           </IconContext.Provider>
@@ -56,6 +57,7 @@ function Join() {
       </div>
 
       <h1 className='info-heading'>Get Involved and saty up to date</h1>
+      
 
       <div className='info-container'>
 
@@ -85,8 +87,12 @@ function Join() {
             <h1 className='groupme-text-header'>Become a Member by Joining us on Group Me</h1>
             <p className='groupme-text-para'>Yo bruv join on group me innit Yo bruv join on group me innitYo bruv join on group me innit Yo bruv join on group me innitYo bruv join on group me innit Yo bruv join on group me innit </p>
           </div>
+
           
         </div>
+
+        <JoinForm imgPosition='right' buttonchildren='Click here' headerChildren='This is a header idk lol' paraChildren='This is the para idk what to write here so loooooooollllll'/>
+
 
 
         
