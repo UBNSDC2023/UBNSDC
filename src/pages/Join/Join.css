@@ -61,21 +61,25 @@
 .groupme-img{
     width: 70%;
     margin-bottom: 20px;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 .social-container{
     display: flex;
     justify-content: space-around;
     padding: 70px;
+    border-radius: 50%;
 }
 
 .social-discord,
 .social-insta,
 .social-twitter {
     text-align: center;
-    background-color: pink;
+    background-color: rgb(211, 244, 240);
     width: 15%;
     height: 80px;
+    border-radius: 10%;
 }
 
 .social-heading{
