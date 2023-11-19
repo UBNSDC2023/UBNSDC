@@ -11,6 +11,7 @@ import Join from "./pages/Join/Join"
 import Boards from "./pages/Board/BoardMembePage"
 
 import {app} from "../firebaseConfig"
+import Activities from './pages/Activities/Activities'
 
 function App() {
   return(
@@ -23,7 +24,7 @@ function App() {
       <Route path='about' element={<About/>}/>
 
       <Route path="join-us"element={<Join/>}/>
-      {/* <Route path="activities"element={<Activiti/>}/> */}
+      <Route path="Activities"element={<Activities/>}/>
       <Route path="meet-the-board"element={<Boards/>}/>
 
       </Route>

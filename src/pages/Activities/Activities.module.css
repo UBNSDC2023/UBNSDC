@@ -1,0 +1,20 @@
+/* .activity-name{
+        font-family: 'League Gothic', 
+        Arial; 
+        font-weight: 400; 
+        text-decoration: underline;
+} */
+
+div {
+        .heading{
+                /* background-position: center center; */
+                background-image: url(https://firebasestorage.googleapis.com/v0/b/ubnsdc-2023.appspot.com/o/Static%20Images%2Funiversity-at-buffalo-James-G-Milles-flickr-56a186fc5f9b58b7d0c065d5.jpg?alt=media&token=34658300-db5c-4c31-8514-90d757d180ba);
+                /* background-size: cover;  */
+                /* transform: translate3d(0px, 14.5px, 0px); */
+                /* max-height: 100px; */
+                /* font-size: 200px; */
+                padding: 10px;
+        }
+        
+}
+
