@@ -53,11 +53,11 @@ function Navbar() {
 
     
             
-            <li className='nav-item last'>
+            <li className='nav-item'>
               <NavLink to='/Activities' className='nav-links' onClick={closeMobileMenu}>
-                <p className='lastfucking'>
+                
                   Activities
-                  </p>
+                  
                   </NavLink>
                   </li>
           

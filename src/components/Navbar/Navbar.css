@@ -33,7 +33,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #fff !important;
   display: flex;
   align-items: center;
   text-decoration: none;
