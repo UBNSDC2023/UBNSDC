@@ -2,6 +2,8 @@ import React from 'react'
 import './About.css'
 import '../../App.css'
 import BoardFetchData from '../../components/BoardFetchData/BoardFetchData'
+import Board from '../../components/Board/Board'
+import Photo from '../../../assets/photo.png'
 
 function About() {
   return (

@@ -1,5 +1,10 @@
 .board-image{
     width: 100%;
     max-width: 250px;
-    aspect-ratio: 1/1;;
+    aspect-ratio: 1/1;
+}
+
+
+.board-text{
+    text-align: center;
 }

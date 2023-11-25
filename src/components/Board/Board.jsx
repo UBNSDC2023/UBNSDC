@@ -1,5 +1,5 @@
 import React from 'react'
-import Photo from '../../../assets/photo.png'
+
 import './Board.css'
 
 function Board({name,title,image}) {
