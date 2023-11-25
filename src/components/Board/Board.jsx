@@ -2,13 +2,13 @@ import React from 'react'
 import Photo from '../../../assets/photo.png'
 import './Board.css'
 
-function Board() {
+function Board({name,title,image}) {
   return (
     <div className='board-container'>
-        <img className = 'board-image' src={Photo} alt="" />
+        <img className = 'board-image' src={image} alt="" />
         <div className='board-text'>
-            <p>Manav Sharma</p>
-            <p>Badmosh</p>
+            <p>{name}</p>
+            <p>{title}</p>
 
         </div>
     </div>

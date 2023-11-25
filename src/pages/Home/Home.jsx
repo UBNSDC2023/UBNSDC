@@ -1,10 +1,49 @@
 import  { useEffect, useState } from 'react'
 import { getBoardMembers } from '../../components/services/apiBoard_Members';
 import "./Home.module.css"
+import { database } from '../../../firebaseConfig';
+import { getDoc, collection } from 'firebase/firestore';
+
+
+// async function fetchDataFromFirestore(){
+//   const query = await getDoc(collection(database,"Board_Members"))
+
+// const data = []
+// query.forEach((doc) => {
+//   data.push({id : doc.id, ...doc.data()});
+
+// });
+//   return data
+
+// } 
+
+// <div>
+//     {member.map((member) => (
+//       <div>
+//         <img src={member.image} alt="" />
+//         <p>{member.name}</p>
+//         <p>{member.pronouns}</p>
+//         <p>{member.title}</p>
+//       </div>
+//     ))  
+
+//     }
+
+//   </div>
+
 
 
 function Home() {
 
+  // const [member,setMember] = useState([])
+
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fetchDataFromFirestore()
+      setMember(data)
+    }
+    fetchData()
+  },[])
 
   return (
     <div className='home-container'>
@@ -16,7 +55,14 @@ function Home() {
     <p className='QIS'>
     Greetings, drama enthusiasts! We are thrilled to welcome you to the newest branch of the National Student Drama Competition right here at the University at Buffalo. As an extension of the prestigious NSDC UCLA, our mission is to ignite the passion for drama and the performing arts within the vibrant community of Buffalo.
   </p>
+ 
+    </div>
+  )
+}
 
+export default Home
+
+/*
 About NSDC UCLA:
 
 For decades, NSDC UCLA has been a beacon of creativity, fostering the talents of aspiring performers, writers, and directors. With a rich history of groundbreaking productions and a commitment to excellence, NSDC UCLA has set the stage for countless success stories. Now, we are proud to bring that legacy to the University at Buffalo.
@@ -50,9 +96,4 @@ Stay Informed:
 Keep up with the latest news, updates, and success stories from NSDC UB. Our news section is your go-to source for announcements, achievements, and inspiring stories from our talented community.
 
 Welcome to a world where creativity knows no bounds. Join us on this exciting journey as we bring the magic of drama to the heart of Buffalo. Let the spotlight shine on NSDC UB, where every story deserves to be told, and every performer deserves a stage
-        
-    </div>
-  )
-}
-
-export default Home
+*/

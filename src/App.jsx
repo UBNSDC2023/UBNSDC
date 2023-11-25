@@ -8,9 +8,6 @@ import AppLayout from './components/AppLayout'
 import About from './pages/About/About'
 
 import Join from "./pages/Join/Join"
-import Boards from "./pages/Board/BoardMembePage"
-
-import {app} from "../firebaseConfig"
 import Activities from './pages/Activities/Activities'
 
 function App() {
@@ -25,7 +22,6 @@ function App() {
 
       <Route path="join-us"element={<Join/>}/>
       <Route path="Activities"element={<Activities/>}/>
-      <Route path="meet-the-board"element={<Boards/>}/>
 
       </Route>
     </Routes>

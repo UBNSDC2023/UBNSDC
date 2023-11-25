@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import Board from '../../components/Board/Board'
 import '../../App.css'
+import BoardFetchData from '../../components/BoardFetchData/BoardFetchData'
 
 function About() {
   return (
@@ -15,11 +15,11 @@ function About() {
       <h1>Administrations</h1>
       <div className='admin-board-container'>
         <div className='admin-image-container'>
-          <Board/>
-          <Board/>
-          <Board/>
-          <Board/>
-          <Board/>
+          <BoardFetchData/>
+          {/* <Board name='Manav Sharma' title='Badmosh' image={Photo}/>
+          <Board name='Manav Sharma' title='Badmosh' image={Photo}/>
+          <Board name='Manav Sharma' title='Badmosh' image={Photo}/>
+          <Board name='Manav Sharma' title='Badmosh' image={Photo}/> */}
 
         </div>
       </div>
@@ -27,10 +27,10 @@ function About() {
 
       <h1>Project leaders</h1>
       <div className='project-board-container'>
-        <Board/>
-        <Board/>
-        <Board/>
-        <Board/>
+        <BoardFetchData/>
+        {/* <Board name='Manav Sharma' title='Badmosh' image={Photo}/>
+        <Board name='Manav Sharma' title='Badmosh' image={Photo}/>
+        <Board name='Manav Sharma' title='Badmosh' image={Photo}/> */}
       </div>
     </div>
     </>
