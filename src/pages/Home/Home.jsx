@@ -1,4 +1,36 @@
 import  { useEffect, useState } from 'react'
+import { getBoardMembers } from '../../components/services/apiBoard_Members';
+import "./Home.css"
+import { database } from '../../../firebaseConfig';
+import { getDoc, collection } from 'firebase/firestore';
+
+
+// async function fetchDataFromFirestore(){
+//   const query = await getDoc(collection(database,"Board_Members"))
+
+// const data = []
+// query.forEach((doc) => {
+//   data.push({id : doc.id, ...doc.data()});
+
+// });
+//   return data
+
+// } 
+
+// <div>
+//     {member.map((member) => (
+//       <div>
+//         <img src={member.image} alt="" />
+//         <p>{member.name}</p>
+//         <p>{member.pronouns}</p>
+//         <p>{member.title}</p>
+//       </div>
+//     ))  
+
+//     }
+
+//   </div>
+
 import "./Home.css";
 
 
@@ -92,9 +124,9 @@ Keep up with the latest news, updates, and success stories from NSDC UB. Our new
 Welcome to a world where creativity knows no bounds. Join us on this exciting journey as we bring the magic of drama to the heart of Buffalo. Let the spotlight shine on NSDC UB, where every story deserves to be told, and every performer deserves a stage
         
   </div>
-</div>
-</>
+  </div>
+  </>
 )
 }
 
-export default Home
+export default Home;

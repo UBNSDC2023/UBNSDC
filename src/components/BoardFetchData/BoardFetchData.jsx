@@ -1,13 +1,16 @@
 import { useEffect, useState } from "react"
 import { getBoardMembers } from "../../components/services/apiBoard_Members copy";
 import Board from "../../components/Board/Board";
+import Spinner from "../Spinner";
 
 
 function BoardFetchData() {
 
+        const [isLoading, SetIsLoading] = useState(false);
         const [members, setMembers] = useState(null);
          useEffect(() => {
         getBoardMembers().then(res => setMembers(res))
+        SetIsLoading(true)
         },[])
 
         // const lemgthOfList = members.length
@@ -29,7 +32,7 @@ function BoardFetchData() {
         <p>{data.title}</p> */}
 
         </>
-        )) : ""
+        )) : <Spinner/>
         }
                 
                 
