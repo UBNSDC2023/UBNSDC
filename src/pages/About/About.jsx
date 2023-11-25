@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import '../../App.css'
 import BoardFetchData from '../../components/BoardFetchData/BoardFetchData'
+import Spinner from '../../components/Spinner'
 
 function About() {
   return (
@@ -27,6 +28,7 @@ function About() {
 
       <h1>Project leaders</h1>
       <div className='project-board-container'>
+        
         <BoardFetchData/>
         {/* <Board name='Manav Sharma' title='Badmosh' image={Photo}/>
         <Board name='Manav Sharma' title='Badmosh' image={Photo}/>

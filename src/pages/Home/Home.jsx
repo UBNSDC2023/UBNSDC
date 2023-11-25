@@ -1,6 +1,6 @@
 import  { useEffect, useState } from 'react'
 import { getBoardMembers } from '../../components/services/apiBoard_Members';
-import "./Home.module.css"
+import "./Home.css"
 import { database } from '../../../firebaseConfig';
 import { getDoc, collection } from 'firebase/firestore';
 
@@ -125,7 +125,9 @@ Keep up with the latest news, updates, and success stories from NSDC UB. Our new
 Welcome to a world where creativity knows no bounds. Join us on this exciting journey as we bring the magic of drama to the heart of Buffalo. Let the spotlight shine on NSDC UB, where every story deserves to be told, and every performer deserves a stage
         
   </div>
+  </div>
+  </>
 )
 }
 
-export default Home
+export default Home;

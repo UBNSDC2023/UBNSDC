@@ -10,7 +10,7 @@ function AppLayout() {
     <>
     <Navbar/>
         <Outlet/>
-    <Footer/>
+    {/* <Footer/> */}
     
     </>
   )
