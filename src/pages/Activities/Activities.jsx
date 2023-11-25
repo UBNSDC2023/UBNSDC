@@ -1,4 +1,4 @@
-import './Activities.module.css'
+import './Activities.css'
 import ActivityComponent from './ActivityComponent'
 
 function Activities() {
