@@ -32,17 +32,12 @@ import { getDoc, collection } from 'firebase/firestore';
 //   </div>
 
 import "./Home.css";
+import FAQComponent from '../../components/FAQ/FAQComponent';
 
 
 function Home() {
 
-  useEffect(() => {
-    async function fetchData() {
-      const data = await fetchDataFromFirestore()
-      setMember(data)
-    }
-    fetchData()
-  },[])
+  
 
   return (
   <>
@@ -125,6 +120,8 @@ Welcome to a world where creativity knows no bounds. Join us on this exciting jo
         
   </div>
   </div>
+    <FAQComponent question = "Heloo ji ?" answer="Nice ji"/>
+  
   </>
 )
 }
