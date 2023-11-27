@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Button from "../Button/Button"
+
 
 function FAQComponent({question, answer}) {
         const [isopen, SetIsOpen] = useState(false)

@@ -1,5 +1,5 @@
 
-import  { useState } from 'react'
+import  { useEffect, useRef, useState } from 'react'
 import logo from '../../../assets/nsdc-logo.png'
 import './navbar.css'
 import { Link, NavLink } from 'react-router-dom'
@@ -21,10 +21,23 @@ function Navbar() {
     }
   }
 
-  window.addEventListener('resize',showButton)
+  const [navbar, setNavBar] = useState(false);
+
+  const changeBacground = () => {
+    if(window.scrollY >= 100) {
+      setNavBar(true)
+    }
+    else{
+      setNavBar(false)
+    }
+  }
+
+  window.addEventListener("scroll", changeBacground)
+
+
   return (
     <>
-      <nav className='navbar'>
+      <nav className={navbar ? "navbar-scrolled" : "navbar"} >
         <div className='navbar-container'>
           <NavLink to='/' >
             <img className='navbar-logo' src={logo} alt="" />

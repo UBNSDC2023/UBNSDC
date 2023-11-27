@@ -8,7 +8,7 @@ import Footer from './Footer/Footer'
 function AppLayout() {
   return (
     <>
-    <Navbar/>
+      <Navbar className=""/>
         <Outlet/>
     {/* <Footer/> */}
     
