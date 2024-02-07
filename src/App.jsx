@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import nsdcLogo from '../assets/nsdc-logo.png'
+import nsdcLogo from './assets/nsdc-logo.png'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'

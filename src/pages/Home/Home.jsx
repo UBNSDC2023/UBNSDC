@@ -1,6 +1,6 @@
 import "./Home.css"
 import FAQComponent from '../../components/FAQ/FAQComponent';
-
+import banner from "../../assets/University-at-buffalo.jpeg"
 
 function Home() {
 
@@ -8,7 +8,7 @@ function Home() {
 
   return (
   <>
-    <img className="Banner" src="../../../assets/University at buffalo .jpeg"/>
+    <img className="Banner" src={banner}/>
     <div className='home-container'>
       <h3 className='heading-home'>
         Welcome to NSDC

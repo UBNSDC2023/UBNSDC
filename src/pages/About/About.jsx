@@ -4,7 +4,7 @@ import '../../App.css'
 import BoardFetchData from '../../components/BoardFetchData/BoardFetchData'
 import Spinner from '../../components/Spinner'
 import Board from '../../components/Board/Board'
-import Photo from '../../../assets/photo.png'
+import Photo from '../../assets/photo.png'
 
 function About() {
   return (

@@ -2,7 +2,7 @@
 import React from 'react'
 import './JoinForm.css'
 import Button from '../Button/Button'
-import groupme from '../../../assets/Group-logo.png'
+import groupme from '../../assets/Group-logo.png'
 
 function JoinForm({ imgPosition,buttonchildren, headerChildren,paraChildren }) {
     let layout;

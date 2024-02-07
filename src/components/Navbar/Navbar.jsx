@@ -1,6 +1,6 @@
 
 import  { useEffect, useRef, useState } from 'react'
-import logo from '../../../assets/nsdc-logo.png'
+import logo from '../../assets/nsdc-logo.png'
 import './navbar.css'
 import { Link, NavLink } from 'react-router-dom'
 import '../../App.css'
